@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.udacity.jdnd.course3.critter.CritterFunctionalTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 4.156 s <<< FAILURE! - in com.udacity.jdnd.course3.critter.CritterFunctionalTest
+testFindOwnerByPet  Time elapsed: 0.176 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because the return value of "com.udacity.jdnd.course3.critter.dto.CustomerDTO.getPetIds()" is null
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testFindOwnerByPet(CritterFunctionalTest.java:120)
+
+testAddPetsToCustomer  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.udacity.jdnd.course3.critter.CritterFunctionalTest.testAddPetsToCustomer(CritterFunctionalTest.java:87)
+
